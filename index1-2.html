@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+		form span {
+			color: red;
+		}
+		textarea {
+			resize: none;
+		}
+	
+	</style>
+</head>
+
+<body>
+	<h1>HTML Form</h1>
+	<form method="post" action="http://ss1.ciwcertified.com/cgi-bin/process.pl" target="_blank">
+		<label for="fname">First Name:</label><br>
+		<input id="fname" type="text" name="fname"><br>
+		<label for="lname">Last Name:</label><br>
+		<input id="lname" type="text" name="lname"><br>
+		<label for="uname">Username:<span>*</span></label><br>
+		<input id="uname" name="uname" type="text" placeholder="Enter Username" autocomplete="off" required><br>
+		<label for="pass">Password:<span>*</span></label><br>
+		<input id="pass" name="pass" type="password" required><br>
+		Select Your Gender: <br>
+		<input id="female" type="radio" name="gender" value="female">
+		<label for="female">Female</label>
+		<input id="male" type="radio" name="gender" value="male">
+		<label for="male">Male</label> <br>
+		Academic Degree: <br>
+		<input id="BA" type="radio" name="acDegree" value="BA">
+		<label for="BA">BA</label>
+		<input id="MA" type="radio" name="acDegree" value="MA" checked>
+		<label for="MA">MA</label>
+		<input id="PHD" type="radio" name="acDegree" value="PHD">
+		<label for="PHD">PHD</label><br>
+		Web Design Skill(s): <br>
+		<input id="HTML" type="checkbox" name="HTML" checked>
+		<label for="HTML">HTML</label><br>
+		<input id="CSS" type="checkbox" name="CSS">
+		<label for="CSS">CSS</label><br>
+		<input id="JS" type="checkbox" name="JS">
+		<label for="JS">Javascript</label><br>
+		Web Programing Skill(s): <br>
+		<input id="PHP" type="checkbox" name="webPrograming" value="PHP">
+		<label for="PHP">PHP</label><br>
+		<input id="Perl" type="checkbox" name="webPrograming" value="Perl">
+		<label for="Perl">Perl</label><br>
+		<input id="B" type="checkbox" name="webPrograming" value="BB">
+		<label for="B">BB</label><br><br>
+		Which country do you want to immigrate? <br>
+		<select name="countryImg">]
+			<option value=""></option>
+			<option>USA</option>
+			<option>Canada</option>
+			<option value="United Kingdom">UK</option>
+			<option>Germany</option>
+			<option>Italy</option>
+		    <option>Farance</option>
+		</select><br><br>
+		Which country do you want to work? <br>
+		<select name="countryWork" id="" multiple>
+			<option>USA</option>
+			<option>Canada</option>
+			<option value="United Kingdom">UK</option>
+			<option>Germany</option>
+			<option>Italy</option>
+		    <option>Farance</option>
+		</select><br><br>
+		
+		<label for="comments">Comments:</label><br>
+		<textarea name="comments" id="comments" cols="20" rows="5"></textarea>
+		
+		
+		
+		<br><br>
+		<input type="submit" value="Send">
+		<input type="reset" value="Refresh">
+	
+	
+	
+	
+</form>
+</body>
+</html>
